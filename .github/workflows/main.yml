@@ -21,6 +21,9 @@ jobs:
         env: 
           VITE_SECRET_KEY: ${{ secrets.VITE_SECRET_KEY }}
         run: npm run build
+
+      - name: Install PWA
+        run: npm run generate-pwa-assets
         
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
