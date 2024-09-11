@@ -32,9 +32,8 @@ const WeightCalculator = () => {
       <div>
         Сира вага Андрій:
         <input
-        //   type="number"
-          value={rawAndrii}
           type="text"
+          value={rawAndrii}
           placeholder="0.00"
           onChange={(e) => setRawAndrii(Number(e.target.value))}
         />
@@ -42,7 +41,7 @@ const WeightCalculator = () => {
       <div>
         Сира вага Віта:
         <input
-          type="number"
+          type="text"
           value={rawVita}
           onChange={(e) => setRawVita(Number(e.target.value))}
         />
@@ -51,7 +50,7 @@ const WeightCalculator = () => {
       <div>
         Готова вага:
         <input
-          type="number"
+          type="text"
           value={readyWeight}
           onChange={(e) => setReadyWeight(Number(e.target.value))}
         />
