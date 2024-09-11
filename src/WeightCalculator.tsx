@@ -28,7 +28,7 @@ const WeightCalculator = () => {
 
   return (
     <div>
-        <h1>Weight Calculator</h1>
+        <h1>Weight Calculator v2</h1>
       <div>
         Сира вага Андрій:
         <input
